@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vkonex Recorder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center">
+    <div class="container">
+        <video id="preview" width="300" height="270" autoplay muted></video>
+        <div class="timer">
+            <h3 id="timer" style="color:#DD0000">00:00</h3>
+        </div>
+        <div class="buttons">
+          
+            <button id="start">Start Recording</button>
+            <button id="stop">Stop Recording</button>
+            <a href="#" id="download" download="Vkone.mp4">Download</a>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reduce Noise &nbsp;<input type="checkbox" style="background:#008800" id="echoCancellation" />
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
